@@ -1,0 +1,12 @@
+[package]
+name = "workmanrs"
+version = "0.1.0"
+edition = "2021"
+author = "propenster"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tasklist = "0.2.12"
+winapi = { version = "^0.3.9", features = ["windef", "winsvc", "winnt", "winuser", "errhandlingapi"]}
+
